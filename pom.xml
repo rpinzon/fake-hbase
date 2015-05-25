@@ -42,15 +42,6 @@
     <hbase.version>0.98.6-cdh5.3.3</hbase.version>
   </properties>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>net.alchim31.maven</groupId>
-        <artifactId>scala-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
-
   <dependencies>
     <!-- Scala runtime -->
     <dependency>
